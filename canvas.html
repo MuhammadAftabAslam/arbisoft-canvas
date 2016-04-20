@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="js/drawing_logic.js"></script>
+<script type="text/javascript" src="js/serializer.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<table>
+  <tr>
+    <td>
+      <div id="drawingDiv" style="height:400px">
+        <canvas id="canvas1" width="400px" height="400px;float:left"
+                style="border:medium;border-color:#00F;border-style:solid;"></canvas>
+        <p></p>
+
+        <!--<div style="float:left" id="colorsDiv">
+          Colors :
+          <div class="colorbox selectedColor" id="blackbox" style="background-color:black"></div>
+          <div class="colorbox" id="redbox" style="background-color:red;"></div>
+          <div class="colorbox" id="bluebox" style="background-color:blue;"></div>
+          <div class="colorbox" id="whitebox" style="background-color:white;"></div>
+          <div class="colorbox" id="greenbox" style="background-color:green;"></div>
+          <div>
+            <br>
+            Stoke Size :
+            <div class="stroke stroke_selected" style="border-radius:3px;border-width:3px;"></div>
+            <div class="stroke" style="border-radius:6px;border-width:5px;"></div>
+            <div class="stroke" style="border-radius:8px;border-width:7px;"></div>
+            <div class="stroke" style="border-radius:12px;border-width:10px;"></div>
+            <div class="stroke" style="border-radius:16px;border-width:13px;"></div>
+            <div class="stroke" style="border-radius:18px;border-width:15px;"></div>
+            <p></p></div>
+          <p></p></div>-->
+      </div>
+    </td>
+    <td>
+      <a href="#" data-role="button" data-inline="true" id="recordBtn">Record</a>
+      <a href="#" data-role="button" data-inline="true" id="playBtn">Play</a>
+      <a href="#" data-role="button" data-inline="true" id="pauseBtn">Pause</a>
+      <a href="#" data-role="button" data-inline="true" id="clearBtn">Clear</a>
+      <a href="#" data-role="button" data-inline="true" id="serializeBtn">Serialzer</a>
+    </td>
+  </tr>
+  <tr>
+    <div id="serDataTxt"></div>
+  </tr>
+  <!--<tr>
+    <td>
+      <div id="canvasBtnsDiv">
+        <input type="button" id="recordBtn" value="Record"><input type="button" id="playBtn" value="Play"><input
+          type="button"
+          id="pauseBtn"
+          value="Pause"
+          style="display: none;"><input
+          type="button" id="clearBtn" value="Clear"><br><input type="button" id="serializeBtn" value="Serialize"><input
+          type="button" id="deserializeBtn" value="Deserialize">
+      </div>
+    </td>
+    <td>
+      <div id="canvasBtnsDiv">
+        <input type="button" id="recordBtn" value="Record"><input type="button" id="playBtn" value="Play"><input
+          type="button" id="pauseBtn" value="Pause" style="display: none;"><input type="button" id="clearBtn"
+                                                                                  value="Clear"><br><input type="button"
+                                                                                                           id="serializeBtn"
+                                                                                                           value="Serialize"><input
+          type="button" id="deserializeBtn" value="Deserialize">
+      </div>
+    </td>
+  </tr>-->
+</table>
+
+
